@@ -89,10 +89,63 @@ h4, h5 {
 }
 
 .footer {
-    width: 3%;
+    width: 4%;
     margin-left: 10px;
 }
 
 .foot {
     background-color: #522DA4;
+    height: 45px;
+}
+/* CSS NOTICIAS */
+
+.bg {
+    background-color: #c5aef7;
+}
+.cont2 {
+    background-color: #E5E5E5;
+}
+
+.money {
+    width: 100%;
+}
+
+.txtn {
+    margin-top: 0;
+    margin-left: 5%;
+    font-size: 30;
+    font-weight: 600;
+    width: 90%;
+}
+
+.txtn2 {
+    color: rgb(57, 55, 55);
+    font-size: 24;
+    font-weight: 500;
+    width: 80%;
+    margin-left: 5%;
+
+}
+
+.paragrafo {
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: justify;
+    padding: 5%;
+}
+
+.moedas {
+    width: 90%;
+    margin-left: 5%;
+
+}
+
+.cptela{
+    width: 60%;
+    margin-bottom: 5%;
+}
+
+.bolso {
+    margin-bottom: 5%;
+    width: 90%;
 }
