@@ -1,4 +1,4 @@
-var target_date = new Date("2020, july, 07, 18:23:00")
+var target_date = new Date("2020, july, 08, 19:00:00")
 
 
 setInterval(function () {
@@ -14,12 +14,13 @@ dias = parseInt(segundos_f / 86400);
 
     minutos = parseInt(segundos_f / 60);
     segundos = parseInt(segundos_f % 60);
-    if(!segundos && !minutos && !horas && !dias ){
+    if(segundos !=0){
 
         document.getElementById('dia').innerHTML = dias;
         document.getElementById('hora').innerHTML = horas;
         document.getElementById('minuto').innerHTML = minutos;
         document.getElementById('segundo').innerHTML = segundos;
+
     }else{
         document.getElementById('dia').innerHTML = 0;
         document.getElementById('hora').innerHTML = 0;
