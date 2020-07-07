@@ -1,4 +1,4 @@
-var target_date = new Date("2020, july, 08, 20:00:00")
+var target_date = new Date("2020, july, 08, 19:00:00")
 var regressiva = document.getElementById("regressiva");
 
 setInterval(function () {

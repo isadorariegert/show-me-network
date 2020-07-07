@@ -32,10 +32,29 @@
         integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <!-- CSS -->
     <link rel="stylesheet" href="css/estilo.css">
+    <script src="./JS/popup.js"></script>
     <title>Poupe Cash</title>
 </head>
 
 <body>
+
+<div id="myModal" class="modal">
+      <!-- Modal content -->
+
+
+        <span class="close" onclick="fechar()">&times;</span>
+
+        <h1 class="call">Já vai?</h1>
+
+          <p>temos muito material programado pro futuro se <br />
+              quiser se inscrever para saber mais!
+          </p>
+          <a type="submit" class="btn" href="#inscrever">
+              INCREVER-SE
+            </a>
+
+</div>
+
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-12">
@@ -94,9 +113,9 @@
                     EVENTOS
                 </h1>
                 <div>
-                    <div class="card card1" style="width: 65%;">
-                        <div class="card-body">
-                            <h4 class="card-text">TEMA DA PROXIMA LIVE</h4>
+                    <div class="card card1"  style="width: 65%;">
+                        <div class="card-body" >
+                            <h4  class="card-text">TEMA DA PROXIMA LIVE</h4>
                             <h5> 07/07/2020</h5>
                         </div>
                         <img class="card-img-top" src="img/live.png" alt="Imagem de capa do card">
@@ -114,9 +133,9 @@
                             </table>
                             </div>
                     </div>
-                    <div class="card" style="width: 65%;">
+                    <div class="card" id="inscrever" style="width: 65%;">
                         <div class="card-body">
-                            <h5 class="card-title">INSCREVA-SE PARA SER LEMBRADO</h5>
+                            <h5  class="card-title">INSCREVA-SE PARA SER LEMBRADO</h5>
 
                             <!-- Begin Mailchimp Signup Form -->
                             <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet"

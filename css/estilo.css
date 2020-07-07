@@ -191,6 +191,55 @@ h4, h5 {
     }
 
 
+    .modal{
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        margin: auto;
+        width: 400px;
+        height: 200px;
+        padding: 15px;
+        border-radius: 30px;
+        background-color:#FFE381 ;
+        color: #522DA4;
+        display: none;
+    }
+
+    .modal-content{
+        height: 200px;
+    }
+    .call{
+        font-size: 30px;
+        margin-top: 15px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+
+    }
+
+    .modal-title {
+        background-color:#FFE381 ;
+    }
+
+    .close{
+        background-color:#FFE381 ;
+        display: flex;
+        justify-content: flex-end;
+
+    }
+    .btn{
+        width: 200px;
+        justify-content: center;
+        align-items: center;
+
+    }
+
 @media only screen and (max-width: 1120px) {
     .contagem {
         width: 100%;
@@ -212,4 +261,6 @@ h4, h5 {
         padding: 3px;
     }
     }
+
+
 
