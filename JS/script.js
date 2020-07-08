@@ -14,7 +14,7 @@ dias = parseInt(segundos_f / 86400);
 
     minutos = parseInt(segundos_f / 60);
     segundos = parseInt(segundos_f % 60);
-    if(segundos !=0){
+    if(segundos !=0 && horas != 0 && minutos != 0 && dias!= 0){
 
         document.getElementById('dia').innerHTML = dias;
         document.getElementById('hora').innerHTML = horas;
