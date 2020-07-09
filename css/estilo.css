@@ -26,10 +26,6 @@ h4, h5 {
     color: #E5E5E5;
     font-weight: bolder;
     text-align: center;
-
-}
-.col-md-12{
-    padding: 0;
 }
 
 .nav {
@@ -140,7 +136,6 @@ label {
     font-weight: 500;
     width: 80%;
     margin-left: 5%;
-
 }
 
 .paragrafo {
@@ -153,7 +148,6 @@ label {
 .moedas {
     width: 90%;
     margin-left: 5%;
-
 }
 
 .cptela{
@@ -167,10 +161,11 @@ label {
 }
 
 .video {
-    width: 83%;
     margin-bottom: 10%;
     margin-top: 5%;
 }
+
+/* CONTADOR REGRESSIVO
 
 .contagem{
     margin-top: -40px;
@@ -274,7 +269,7 @@ label {
         height: 25px;
         padding: 3px;
     }
-    }
+}
 
-
+*/
 
