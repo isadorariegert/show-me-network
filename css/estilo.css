@@ -48,11 +48,12 @@ h4, h5 {
 .left {
     margin-left: 10%;
     margin-bottom: 10%;
-    margin-top: 10%;
+    margin-top: 5%;
 }
 
 .right {
     text-align: center;
+    margin-top: 5%;
 }
 
 .logo {
@@ -65,20 +66,9 @@ h4, h5 {
     width: 20%;
 }
 
-
-.imglive {
-    text-align: center;
-    align-content: center;
-    width: 77%;
-    margin-bottom: 15%;
-}
-
-.progress {
-    margin-bottom: 10%;
-}
-
 .card{
     margin-left: 15%;
+    margin-top: 5%;
     text-align: left;
     margin-bottom: 3%;
     border-radius: 10px;
@@ -86,19 +76,6 @@ h4, h5 {
     padding: 3%;
 }
 
-.card1 {
-    background-color: #522DA4;
-    height: 80%;
-    justify-content: center;
-    align-items: center;
-    margin-top: 5%;
-    margin-bottom: 5%;
-}
-
-.youtube {
-    margin-left: 43%;
-    width: 15%;
-}
 
 input {
     width: 100%;
@@ -189,25 +166,27 @@ label {
     width: 90%;
 }
 
+.video {
+    width: 83%;
+    margin-bottom: 10%;
+    margin-top: 5%;
+}
+
 .contagem{
-    margin-top: -30px;
-    width:50%;
-    height:70px;
-    margin-left: 50px;
+    margin-top: -40px;
+    width:80%;
+    height:80px;
+    margin-left: 60px;
     background-color: #522DA4;
     display: flex;
     justify-content: center;
     align-items: center;
-
-
+    border-radius: 20px;
     }
 
-    .numero
-    {
-
+    .numero{
     background-color: #522DA4;
     color: #fff;
-
     font-size: 20px;
     margin-right: 50px;
     text-align: center;
@@ -216,7 +195,7 @@ label {
     }
 
     .legenda{
-    height: 25px;
+    height: 20px;
     line-height: 5px;
     font-size:12px;
     margin-right: 50px;
