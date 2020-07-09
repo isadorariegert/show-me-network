@@ -198,8 +198,8 @@ label {
     color: #fff;
     text-align: center;
     }
-
-
+}
+*/
     .modal{
         position: fixed;
         top: 0;
@@ -269,7 +269,3 @@ label {
         height: 25px;
         padding: 3px;
     }
-}
-
-*/
-
